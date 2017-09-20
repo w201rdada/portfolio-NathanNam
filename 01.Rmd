@@ -6,19 +6,12 @@ bubble, housing, home price, rent
 
 ## A beginning.
 
-My wife and I just moved back to San Francisco Bay Area and have looked for a 2bd house in Millbrae, Burlingame, and San Mateo. Price range for a 2bd house in these cities is from $2.7k to $4.0k per month which is a lot higher than a median price for a 2bd house in the USA. We have spent more than 30 hours respectively to search for available options without knowing whether houses we have found have the right price. As 90,000 people moved in from July 2014 to July 2015, we could have wasted 2.7M hours collectively. In this context, I’d like to prevent incoming residents in San Francisco Bay Area from wasting time by presenting only houses whose prices are expected to go up.
+My wife and I just moved back to San Francisco Bay Area and have looked for a 2bd house in Millbrae, Burlingame, and San Mateo. Price range for a 2bd house in these cities is from $2.7k to $4.0k per month which is a lot higher than a median price for a 2bd house in the USA. We have spent more than 30 hours respectively to search for available options without knowing whether houses we have found have the right price. As 90,000 people moved in from July 2014 to July 2015, we could have wasted 2.7M hours collectively. In this context, I’d like to prevent incoming residents in San Francisco Bay Area from wasting time by showing how likely a rent price would go up or down.
 
 ## A middle.
-
-Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
-
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
-
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
+When you search for flights or hotels in Google or in online travel sites, it is not difficult to see them indicating whether your options are best deals or not, or whether prices are expected to go up or not. This kind of information have influenced your decision so far. 
+Shouldn’t we have the same capability for rents? That’s why I introduce you the Bay Area Rent Price Predictor. Based on the historical data of house sales and rents in this area, the predictor should be able to identify upward or downward trends in terms of home prices and rents and to even suggest the dates when newcomers are encouraged to move in San Francisco Bay Area.
 
 ## An end.
 
-90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+When a newcomer looks for a place to rent in San Francisco Bay Area, he or she would be able to make a quick and right decision (pass/visit/apply) since the rent price predictor shows whether a rent price is within a range and how likely the price goes up or down in a foreseeable future. As a result, newcomers will save more than 2.7M hours and money collectively and find places at the right prices in San Francisco Bay Area.
