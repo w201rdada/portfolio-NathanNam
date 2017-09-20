@@ -1,4 +1,4 @@
-# My first cool idea {#housing-bubble-bay-area}
+# My first cool idea {#bay-area-rent-price-predictor}
 
 #### Keywords
 
