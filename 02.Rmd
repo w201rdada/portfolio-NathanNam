@@ -6,10 +6,7 @@ passenger-screening, TSA, delay, airport
 
 ## A beginning.
 
-I arrived at Hartsfield–Jackson Atlanta International Airport in Atlanta, GA last Thursday after a conference one and a half hour before my flight back to San Francisco. Since it was a domestic flight, I naively thought I could make it, but I missed the flight. It took more than 1 hour to go through the security check at the airport. Delays in the security check are mainly caused by additional manual checks when the body scanners beep alarms, but these alarms are false positive in most cases. According to FAA, more than 2.5M domestic/international passenger fly every day.
-
-
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+I arrived at Hartsfield–Jackson Atlanta International Airport in Atlanta, GA last Thursday after a conference one and a half hour before my flight back to San Francisco. Since it was a domestic flight, I naively thought I could make it, but I missed the flight. It took more than 1 hour to go through the security check at the airport. Delays in the security check are mainly caused by additional manual checks when the body scanners beep alarms, but these alarms are false positive in most cases. According to FAA, more than 2.5M domestic/international passenger fly every day. If we can reduce the false positives, we would save lots of time wasted at the airports collectively.
 
 ## A middle.
 
