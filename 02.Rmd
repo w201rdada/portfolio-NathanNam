@@ -1,28 +1,21 @@
-# My second cool idea {#never-miss-your-flights} - WIP
+# My second cool idea {#never-miss-your-flight} - WIP
 
 #### Keywords
 
-passenger-screening, TSA, delay, airport
+passenger-scanning, TSA, delay, airport
 
 ## A beginning.
 
-I arrived at Hartsfield–Jackson Atlanta International Airport in Atlanta, GA last Thursday after a conference one and a half hour before my flight back to San Francisco. Since it was a domestic flight, I naively thought I could make it, but I missed the flight. It took more than 1 hour to go through the security check at the airport. Delays in the security check are mainly caused by additional manual checks when the body scanners beep alarms, but these alarms are false positive in most cases. According to FAA, more than 2.5M domestic/international passenger fly every day. If we can reduce the false positives, we would save lots of time wasted at the airports collectively.
+I arrived at Hartsfield–Jackson Atlanta International Airport in Atlanta, GA on Oct 19 one and a half hour before my flight back to San Francisco. Since it was a domestic flight, I naively thought I could make it, but I missed the flight. It took more than 1 hour to go through the security check at the airport.
+Delays in the security check are mainly caused by additional manual checks when the body scanners beep alarms, but these alarms are false positive in most cases. According to FAA, more than 2.5M domestic/international passengers fly every day. If we can reduce the false positives, we would save lots of time wasted at the airports collectively.
 
 ## A middle.
-
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
-
-
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
-
-
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
+How many times have you seen a traveler being called out for an additional search after the body scanner and a TSA agent find nothing? It is believed that 9 out of 10 cases are false positives, and they are the biggest cause of delays in the security check. Never-Miss-Your-Flight dynamically adjusts a threshold based on traveler's security check and travel history when his or her passport is scanned before the body scanner. For example, the body scanner would be less sensitive when those who have traveled a lot and have not been additionally screened come through it. However, the body scanner would become more sensitive for first-time travelers and those who have the records. Never-Miss-Your-Flight will dramatically decrease the false positives.   
 
 ## An end.
+No more long lines in the security check when you arrive at the airport for your next flight with Never-Miss-Your-Flight. As the body scanner only picks the potential threats with much lower false positives, TSA agents can pay more attention to them, and are not required to work overtime to help alleviate the long lines. In addition, the shorter lines in the security check would help save lots of time collectively for more than 2.5M passengers flying every day. While lowering false positives is the primary benefit from Never-Miss-Your-Flight, no one wants to see false negatives go into any flights. Therefore, Never-Miss-Your-Flight will randomly lower its threshold to prevent them. Never-Miss-Your-Flight will bring no more delays and missing flights with security at the airport.
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
-
-
-Sources: https://www.faa.gov/air_traffic/by_the_numbers/
+Sources
+ - https://www.faa.gov/air_traffic/by_the_numbers/
+ - http://www.news9.com/story/22112531/product-causes-owasso-woman-to-test-positive-for-explosives-at-airport
+ - http://www.cnn.com/travel/article/tsa-long-lines-us-airports/index.html
