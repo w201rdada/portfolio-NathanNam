@@ -37,6 +37,6 @@ Vero dolor  franzen letterpress.  Taxidermy pork belly messenger bag, deserunt  
   
 ## About the author
 
-I'm Nathan Nam woring at MuleSoft as a product manager.
+I'm Nathan Nam working at MuleSoft as a product manager.
 
 *Updated: `r Sys.Date()`*
