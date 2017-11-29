@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="bay-area-rent-price-predictor.html">
-
+<link rel="prev" href="index.html">
+<link rel="next" href="bay-area-rent-price-predictor.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -67,15 +67,15 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome!</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#about-the-author"><i class="fa fa-check"></i>About the author</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="bay-area-rent-price-predictor.html"><a href="bay-area-rent-price-predictor.html"><i class="fa fa-check"></i>My first cool idea</a><ul>
-<li class="chapter" data-level="" data-path="bay-area-rent-price-predictor.html"><a href="bay-area-rent-price-predictor.html#apartment-hunting."><i class="fa fa-check"></i>Apartment hunting.</a></li>
-<li class="chapter" data-level="" data-path="bay-area-rent-price-predictor.html"><a href="bay-area-rent-price-predictor.html#rent-price-predictor."><i class="fa fa-check"></i>Rent price predictor.</a></li>
-<li class="chapter" data-level="" data-path="bay-area-rent-price-predictor.html"><a href="bay-area-rent-price-predictor.html#new-home."><i class="fa fa-check"></i>New home.</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html#smart-body-scanner"><i class="fa fa-check"></i><b>1</b> Smart Body Scanner</a><ul>
+<li class="chapter" data-level="1.1" data-path="smart-body-scanner.html"><a href="smart-body-scanner.html"><i class="fa fa-check"></i><b>1.1</b> I missed my flight.</a></li>
+<li class="chapter" data-level="1.2" data-path="smart-body-scanner.html"><a href="smart-body-scanner.html#dynamic-threshold."><i class="fa fa-check"></i><b>1.2</b> Dynamic threshold.</a></li>
+<li class="chapter" data-level="1.3" data-path="smart-body-scanner.html"><a href="smart-body-scanner.html#never-miss-your-flight."><i class="fa fa-check"></i><b>1.3</b> Never miss your flight.</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="smart-body-scanner.html"><a href="smart-body-scanner.html"><i class="fa fa-check"></i>My second cool idea</a><ul>
-<li class="chapter" data-level="" data-path="smart-body-scanner.html"><a href="smart-body-scanner.html#i-missed-my-flight."><i class="fa fa-check"></i>I missed my flight.</a></li>
-<li class="chapter" data-level="" data-path="smart-body-scanner.html"><a href="smart-body-scanner.html#dynamic-threshold."><i class="fa fa-check"></i>Dynamic threshold.</a></li>
-<li class="chapter" data-level="" data-path="smart-body-scanner.html"><a href="smart-body-scanner.html#never-miss-your-flight."><i class="fa fa-check"></i>Never miss your flight.</a></li>
+<li class="chapter" data-level="2" data-path="index.html"><a href="index.html#bay-area-rent-price-predictor"><i class="fa fa-check"></i><b>2</b> Bay Area Rent Price Predictor</a><ul>
+<li class="chapter" data-level="2.1" data-path="bay-area-rent-price-predictor.html"><a href="bay-area-rent-price-predictor.html"><i class="fa fa-check"></i><b>2.1</b> Apartment hunting.</a></li>
+<li class="chapter" data-level="2.2" data-path="bay-area-rent-price-predictor.html"><a href="bay-area-rent-price-predictor.html#rent-price-predictor."><i class="fa fa-check"></i><b>2.2</b> Rent price predictor.</a></li>
+<li class="chapter" data-level="2.3" data-path="bay-area-rent-price-predictor.html"><a href="bay-area-rent-price-predictor.html#new-home."><i class="fa fa-check"></i><b>2.3</b> New home.</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/NathanNam" target="blank">GitHub</a></li>
@@ -100,21 +100,21 @@
 
             <section class="normal" id="section-">
 <div id="smart-body-scanner" class="section level1">
-<h1>My second cool idea</h1>
-<div id="keywords-1" class="section level4">
-<h4>Keywords</h4>
+<h1><span class="header-section-number">1</span> Smart Body Scanner</h1>
+<div id="keywords" class="section level4">
+<h4><span class="header-section-number">1.0.0.1</span> Keywords</h4>
 <p>passenger-scanning, TSA, delay, airport</p>
 </div>
 <div id="i-missed-my-flight." class="section level2">
-<h2>I missed my flight.</h2>
+<h2><span class="header-section-number">1.1</span> I missed my flight.</h2>
 <p>I arrived at Hartsfield–Jackson Atlanta International Airport in Atlanta, GA one and a half hour before my flight back to San Francisco. Since it was a domestic flight, I naively thought I could make it, but I missed the flight. It took more than 1 hour to go through the security check at the airport. Delays in the security check are mainly caused by additional manual checks when the body scanners beep alarms, but these alarms are false positive in most cases. According to FAA, more than 2.5M domestic/international passengers fly every day. If we can reduce the false positives, we would save lots of time wasted at the airports collectively.</p>
 </div>
 <div id="dynamic-threshold." class="section level2">
-<h2>Dynamic threshold.</h2>
+<h2><span class="header-section-number">1.2</span> Dynamic threshold.</h2>
 <p>How many times have you seen a traveler being called out for an additional search after the body scanner and a TSA agent found nothing? It is believed that 9 out of 10 cases are false positives, and they are the biggest cause of delays in the security check. Smart Body Scanner is a software which can be easily applied to various body scanners used across different airports. Smart Body Scanner dynamically adjusts a threshold based on traveler’s security check and travel history when his or her passport is scanned before the body scanner. It can be also trained based on the scanned images collected from other body scanners. For example, the body scanner would be less sensitive when those who have traveled a lot and have not been additionally screened come through it. However, the body scanner would become more sensitive for first-time travelers and those who have the records. Smart Body Scanner will dramatically decrease the false positives.</p>
 </div>
 <div id="never-miss-your-flight." class="section level2">
-<h2>Never miss your flight.</h2>
+<h2><span class="header-section-number">1.3</span> Never miss your flight.</h2>
 <p>No more long lines in the security check when you arrive at the airport for your next flight with Smart Body Scanner. As the body scanner only picks the potential threats with much lower false positives, TSA agents can pay more attention to them, and are not required to work overtime to help alleviate the long lines. In addition, the shorter lines in the security check would help save lots of time collectively for more than 2.5M passengers flying every day. While lowering false positives is the primary benefit from Smart Body Scanner, no one wants to see false negatives go into any flights. Therefore, Smart Body Scanner will randomly lower its threshold to prevent them. Smart Body Scanner will bring no more delays and missing flights with security at the airport.</p>
 <p>Sources - <a href="https://www.faa.gov/air_traffic/by_the_numbers/" class="uri">https://www.faa.gov/air_traffic/by_the_numbers/</a> - <a href="http://www.news9.com/story/22112531/product-causes-owasso-woman-to-test-positive-for-explosives-at-airport" class="uri">http://www.news9.com/story/22112531/product-causes-owasso-woman-to-test-positive-for-explosives-at-airport</a> - <a href="http://www.cnn.com/travel/article/tsa-long-lines-us-airports/index.html" class="uri">http://www.cnn.com/travel/article/tsa-long-lines-us-airports/index.html</a></p>
 
@@ -125,8 +125,8 @@
           </div>
         </div>
       </div>
-<a href="bay-area-rent-price-predictor.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="bay-area-rent-price-predictor.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
