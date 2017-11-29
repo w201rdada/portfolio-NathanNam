@@ -1,4 +1,4 @@
-# My second cool idea {#smart-body-scanner}
+# Smart Body Scanner {#smart-body-scanner}
 
 #### Keywords
 
