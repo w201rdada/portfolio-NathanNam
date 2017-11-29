@@ -29,6 +29,6 @@ When was your last time you missed your flight? I missed my returning flight to 
 Did you know people moving to San Francisco Bay Area spend millions of hours collectively to find their new places every year? Why can’t we know whether a rent is at the best price or whether it is expected to go up or down, as we know for prices for flights or hotels? That’s why I introduce you the Bay Area Rent Price Predictor.
   
 ## About the author{-}
-I'm Nathan Nam working at MuleSoft as a product manager. I'd like to contribute to solving day-to-day issues many people face by applying data science and that's why I'm working on a Masters in Information and Data Science at UC Berkeley. I interned as a Product Manager at Splunk, and worked on enterprise mobility at Samsung Electronics. I got my MBA from Tuck School of Business at Dartmouth and majored in Computer Science and Engineering at Sogang University.
+I'm Nathan Nam working at MuleSoft as a Product Manager. I'd like to contribute to solving day-to-day issues many people face by applying data science and that's why I'm working on a Masters in Information and Data Science at UC Berkeley. I interned as a Product Manager at Splunk, and worked on enterprise mobility at Samsung Electronics. I got my MBA from Tuck School of Business at Dartmouth and majored in Computer Science and Engineering at Sogang University.
 
 *Updated: `r Sys.Date()`*
