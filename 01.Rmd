@@ -1,4 +1,4 @@
-# My first cool idea {#bay-area-rent-price-predictor}
+# Bay Area Rent Price Predictor {#bay-area-rent-price-predictor}
 
 #### Keywords
 
