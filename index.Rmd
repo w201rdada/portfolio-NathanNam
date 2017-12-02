@@ -26,10 +26,10 @@ Thanks for visiting my portfolio page. In this page, you can learn more about tw
 knitr::include_url('https://drive.google.com/file/d/1I5WgWxD5UroGlrdD_OE41Qu96VnIaLVr/preview')
 ```
 
-### Smart Body Scanner
+### Smart Body Scanner {-}
 When was your last time you missed your flight? I missed my returning flight to San Francisco from Atlanta last month. There are various reasons why people missed their flights, but one of the main contributing factors could be a delay at security body scanner because of false positives.  Smart Body Scanner dynamically adjusts a threshold based on traveler's security check and travel history when his or her passport is scanned before the body scanner.
 
-### Bay Area Rent Price Predictor
+### Bay Area Rent Price Predictor {-}
 Did you know people moving to San Francisco Bay Area spend millions of hours collectively to find their new places every year? Why can’t we know whether a rent is at the best price or whether it is expected to go up or down, as we know for prices for flights or hotels? That’s why I introduce you the Bay Area Rent Price Predictor.
   
 ## About the author {-}
