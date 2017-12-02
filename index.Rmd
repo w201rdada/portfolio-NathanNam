@@ -12,7 +12,7 @@ library(magrittr)
 ```
 
 
-# Welcome!{-}
+# Welcome! {-}
 
 <!-- You can include images saved within your repo... -->
 ```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
@@ -26,13 +26,13 @@ Thanks for visiting my portfolio page. In this page, you can learn more about tw
 knitr::include_url('https://drive.google.com/file/d/1I5WgWxD5UroGlrdD_OE41Qu96VnIaLVr/preview')
 ```
 
-### Smart Body Scanner{-}
+### Smart Body Scanner {-}
 When was your last time you missed your flight? I missed my returning flight to San Francisco from Atlanta last month. There are various reasons why people missed their flights, but one of the main contributing factors could be a delay at security body scanner because of false positives.  Smart Body Scanner dynamically adjusts a threshold based on traveler's security check and travel history when his or her passport is scanned before the body scanner.
 
-### Bay Area Rent Price Predictor{-}
+### Bay Area Rent Price Predictor {-}
 Did you know people moving to San Francisco Bay Area spend millions of hours collectively to find their new places every year? Why can’t we know whether a rent is at the best price or whether it is expected to go up or down, as we know for prices for flights or hotels? That’s why I introduce you the Bay Area Rent Price Predictor.
   
-## About the author{-}
+## About the author {-}
 I'm Nathan Nam working at MuleSoft as a Product Manager. I'd like to contribute to solving day-to-day issues many people face by applying data science and that's why I'm working on a Masters in Information and Data Science at UC Berkeley. I interned as a Product Manager at Splunk, and worked on enterprise mobility at Samsung Electronics. I got my MBA from Tuck School of Business at Dartmouth and majored in Computer Science and Engineering at Sogang University.
 
 *Updated: `r Sys.Date()`*
