@@ -1,4 +1,4 @@
-# My second cool idea {#never-miss-your-flight}
+# Using data science to improve airport security {#never-miss-your-flight}
 
 #### Keywords
 
@@ -6,14 +6,15 @@ passenger-scanning, TSA, delay, airport
 
 ## A beginning.
 
-I arrived at Hartsfield–Jackson Atlanta International Airport in Atlanta, GA on Oct 19 one and a half hour before my flight back to San Francisco. Since it was a domestic flight, I naively thought I could make it, but I missed the flight. It took more than 1 hour to go through the security check at the airport.
-Delays in the security check are mainly caused by additional manual checks when the body scanners beep alarms, but these alarms are false positive in most cases. According to FAA, more than 2.5M domestic/international passengers fly every day. If we can reduce the false positives, we would save lots of time wasted at the airports collectively.
+I arrived at Hartsfield–Jackson Atlanta International Airport in Atlanta, GA on October 19 one and a half hours before my flight back to San Francisco. Since it was a domestic flight, I naively thought I could make it, but I missed the flight. It took more than one hour to go through the security check at the airport.
+
+Delays in the security check are mainly caused by additional manual checks when the body scanners beep alarms. How many times have you seen a traveler being called out for an additional search after the body scanner and the TSA agent finds nothing? It is believed that 9 out of 10 cases are false positives and they are the biggest cause of delays in the security check. According to the FAA, more than 2.5M domestic/international passengers fly every day. If we can use data science to reduce the rate of false positives, we would save lots of time wasted at the airports.
 
 ## A middle.
-How many times have you seen a traveler being called out for an additional search after the body scanner and a TSA agent find nothing? It is believed that 9 out of 10 cases are false positives, and they are the biggest cause of delays in the security check. Never-Miss-Your-Flight dynamically adjusts a threshold based on traveler's security check and travel history when his or her passport is scanned before the body scanner. For example, the body scanner would be less sensitive when those who have traveled a lot and have not been additionally screened come through it. However, the body scanner would become more sensitive for first-time travelers and those who have the records. Never-Miss-Your-Flight will dramatically decrease the false positives.   
+Never-Miss-Your-Flight is an enhancement to airport security scanning systems that dynamically adjusts its assessment of an individual's scan based on the traveler's security check and travel history when his or her passport is scanned before the body scanner. The body scanner would be less sensitive to potential threats when a passenger has traveled a lot and more sensitive to first-time travelers and those who have records. By incorporating information from a passenger's travel hisotry, Never-Miss-Your-Flight will dramatically decrease the rate of false positives in airport security screening. 
 
 ## An end.
-No more long lines in the security check when you arrive at the airport for your next flight with Never-Miss-Your-Flight. As the body scanner only picks the potential threats with much lower false positives, TSA agents can pay more attention to them, and are not required to work overtime to help alleviate the long lines. In addition, the shorter lines in the security check would help save lots of time collectively for more than 2.5M passengers flying every day. While lowering false positives is the primary benefit from Never-Miss-Your-Flight, no one wants to see false negatives go into any flights. Therefore, Never-Miss-Your-Flight will randomly lower its threshold to prevent them. Never-Miss-Your-Flight will bring no more delays and missing flights with security at the airport.
+Since the body scanner identifies fewer threats overall, TSA agents can pay more attention to them and are not required to work overtime to help alleviate the long lines. In addition, the shorter lines in the security check would help save lots of time collectively for the more than 2.5M passengers flying every day. While lowering false positives is the primary benefit from Never-Miss-Your-Flight, false negatives (serious threats not caught by security) must be avoided. Therefore, Never-Miss-Your-Flight will randomly lower its threshold to have a better chance of identifying them. Never-Miss-Your-Flight will bring reduce the number of delays and missed flights at the airport. No more long lines in the security check when you arrive at the airport for your next flight with Never-Miss-Your-Flight.
 
 Sources
  - https://www.faa.gov/air_traffic/by_the_numbers/
